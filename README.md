@@ -65,7 +65,7 @@ Then initialize:
 bazuka init [flags...]
 ```
 
-Available flags:
+Available flags
 
  * `--bootstrap <bootstrap>...`: You can use the nodes introduced by the community as your bootstrap nodes through this flag.
  * `--db <db>`: Path of the node's database. Default: `~/.bazuka`.
@@ -83,7 +83,7 @@ bazuka init --network debug --bootstrap 23.34.12.45:8765 --bootstrap 34.56.78.23
 After initializing your node you can run it through:
 
 ```sh
-bazuka node start --discord_handle "YOUR DISCORD HANDLE"
+bazuka node start --discord-handle "YOUR DISCORD HANDLE"
 ```
 
 Highly recommended to also provide your Discord handle through the
